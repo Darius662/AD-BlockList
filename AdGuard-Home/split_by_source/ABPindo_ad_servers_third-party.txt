@@ -1,0 +1,15 @@
+! Source: ABPindo ad servers third-party
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/src/advert/thirdparty.txt
+!
+!
+||c-stat.eu^
+||cfs1.uzone.id^
+||moneyfree.co^
+||track.aptitudemedia.co^
+||track.zerofriend.com^
+||tracker.lazada.co.id^
+||trackingclick.net^
+||traffic-monetizer.com^
+!

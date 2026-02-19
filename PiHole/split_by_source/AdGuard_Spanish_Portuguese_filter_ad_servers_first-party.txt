@@ -1,0 +1,6 @@
+go.etoro.com
+ads-redis.ecn.cl
+publi.elliberal.com.ar
+xad.dnoticias.pt
+adclient-uol.lp.uol.com.br
+adv.r7.com

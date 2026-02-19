@@ -1,0 +1,4 @@
+proxy.optoutadserving.com
+cryptosplash.care
+pexi.nl
+adconfigproxy.azurewebsites.net

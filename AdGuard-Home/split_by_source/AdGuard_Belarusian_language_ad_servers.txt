@@ -1,0 +1,8 @@
+! Source: AdGuard Belarusian language ad servers
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Belarusian/sections/filter.txt
+!
+!
+!
+!

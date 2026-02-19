@@ -1,0 +1,31 @@
+! Source: AdGuard Japanese filter ad servers first-party
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://adguardteam.github.io/AdguardFilters/JapaneseFilter/sections/adservers_firstparty.txt
+!
+!
+!
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
+||ad.datadeliver.net^
+||ad.firestorage.jp^
+||mbada.nan.co.jp^
+||ads.nicovideo.jp^
+||adserv2.suumo.jp^
+||ad.woman.mynavi.jp^
+||shop.vapelog.jp^
+||s-ad.rmp.rakuten.co.jp^
+||ad.jp.ap.valuecommerce.com^
+||valuecommerce.ne.jp^
+||mbadv.nan.co.jp^
+||ads.world-fusigi.net^
+||ad.eloan.co.jp^
+||ad.abema.io^
+||ad-hatena.com^
+||advert.punyu.com^
+!

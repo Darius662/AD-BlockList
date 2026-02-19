@@ -1,0 +1,45 @@
+! Source: EasyList Italy ad servers
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://raw.githubusercontent.com/easylist/easylistitaly/master/easylistitaly/easylistitaly_adservers.txt
+!
+!
+||ad-hub.it^
+||adasta.it^
+||adbreak.ch^
+||addendo.network^
+||adplay.it^
+||adspro.it^
+||affiliation.software^
+||affilroi.com^
+||bannerbuy.it^
+||break-even.it^
+||broadbandy.net^
+||brznetwork.com^
+||btmarketing.it^
+||codesour.com^
+||consigli.it^
+||delosnetwork.it^
+||eadv.it^
+||epeex.io^
+||evolutionadv.it^
+||hbagency.it^
+||justearn.it^
+||leonardoadv.it^
+||mediamond.it^
+||noddus.com^
+||open-up.it^
+||preludeadv.it^
+||publy.net^
+||rcsadv.it^
+||rizzonelli.it^
+||rtbuzz.net^
+||seowebbs.com^
+||shoppydoo.com^
+||tjekscores.dk^
+||toobee.it^
+||upstory.it^
+||worldfilia.net^
+||yobee.it^
+||yohtads.com^
+!

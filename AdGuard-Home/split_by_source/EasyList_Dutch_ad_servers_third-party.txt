@@ -1,0 +1,36 @@
+! Source: EasyList Dutch ad servers third-party
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://raw.githubusercontent.com/easylist/easylistdutch/master/easylistdutch/block_third_party_server.txt
+!
+!
+||2k19.nl^
+||adrequest.net^
+||adshim.com^
+||adswag.nl^
+||affilaxy.com^
+||affiliatepartners.com^
+||affiliateprogramma.eu^
+||banner-online.nl^
+||believe-the-hype.be^
+||botndm.nl^
+||crnsgngrpj.nl^
+||dntblckmpls.nl^
+||ds1.nl^
+||dt71.net^
+||gratis-neuken.com^
+||mt67.net^
+||nojazz.eu^
+||nonstoppartner.net^
+||online-banners.nl^
+||optoutadvertising.com^
+||publize.net^
+||sponsorkliks.com^
+||static-dscn.net^
+||tools-affil2.com^
+||tools.islive.nl^
+||travelads.be^
+||trickyrock.com^
+||vpscash.nl^
+||xpartners.nl^
+!

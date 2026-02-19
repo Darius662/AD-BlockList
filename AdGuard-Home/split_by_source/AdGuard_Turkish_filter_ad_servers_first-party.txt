@@ -1,0 +1,65 @@
+! Source: AdGuard Turkish filter ad servers first-party
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://adguardteam.github.io/AdguardFilters/TurkishFilter/sections/adservers_firstparty.txt
+!
+!
+!
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
+!
+||hepsiads-ui.hepsiburada.com^
+||filmreklam.livebahispartners.com^
+||adsmanagement.atamedyagrubu.com^
+||diziwatchpreroll.pages.dev^
+||bitcasino365.b-cdn.net^
+||r.yabancidizi.in^
+||ads.dygdigital.com^
+||ads.igfhaber.com^
+||ad.hepsiburada.com^
+||ad.reklm.com^
+||ads.motosiklet.net^
+||cdn.eksiup.com^
+||url.isimsepeti.net^
+||ads.gencgazete.net^
+||a.doganburda.com^
+||ad.dline.com.tr^
+||ad.ntvmsnbc.com^
+||ad.sacitaslan.com^
+||ad.yemeksepeti.com^
+||addata.exxen.com^
+||adn.bursadabugun.com^
+||ads.gercekgundem.com^
+||ads.inegolonline.com^
+||ads.macsonuclari.mobi^
+||ads.oyungemisi.com^
+||ads.pivol.net^
+||ads.sondakika.com^
+||adserve.donanimhaber.com^
+||adserver.a24.com.tr^
+||adserver.bafrahaber.com^
+||adsp.ciner.com.tr^
+||adsp.haberturk.com^
+||banner.kanald.com.tr^
+||banner.setrowid.com^
+||banners.tempobet.com^
+||campaign.nmobs.com^
+||partnerad.l.google.com^
+||reklam.arabul.com^
+||reklam.emlakkulisi.com^
+||reklam.turkmmo.com^
+||reklam.memurlar.net^
+||reklam.milliyet.com.tr^
+||reklam.misli.com^
+||reklam.mynet.com^
+||reklam.star.com.tr^
+||reklam.yonlendir.com^
+||reklam1.akhisar.bel.tr^
+||savoy.cubecdn.net^
+||ttauri.livescience.com^
+!

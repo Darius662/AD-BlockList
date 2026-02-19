@@ -1,0 +1,129 @@
+! Source: AdGuard Base filter ad servers foreign
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/foreign.txt
+!
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/17139
+||gjc.gjirafa.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/182298
+||rolpenszimocca.com^
+||sezads.store^
+||a.mabipa.com^
+||klik-slider.morgancode.com^
+||lupon.media^
+||redakcija.alo.rs^
+||traffic.styria.hr^
+||widget.admiral.hr^
+||widgets.jutarnji.hr^
+||widget.marktjagd.de^
+! https://github.com/AdguardTeam/AdguardFilters/issues/140344
+||eph-adsjutarnji.cdn.sysbee.net^
+! https://github.com/AdguardTeam/AdguardFilters/issues/17278
+||subs.vingd.com^
+!+ NOT_OPTIMIZED
+||banner.mob.hr^
+! https://github.com/AdguardTeam/AdguardFilters/issues/45953
+||rsz.sk^
+! https://github.com/AdguardTeam/AdguardFilters/issues/41373
+||bannery.navratdoreality.cz^
+||report.seznamzpravy.cz^
+||ap.delfi.ee^
+||ado.delfi.ee^
+! https://github.com/uBlockOrigin/uAssets/issues/14204
+||es.ylilauta.org^
+!---------------------------------------------------------------------
+!------------------------------ Georgian -----------------------------
+!---------------------------------------------------------------------
+!
+! NOTE: Georgian
+!
+! https://github.com/uBlockOrigin/uAssets/issues/29952
+||pillexplorer.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/151672
+||sab.fast.ge^
+||adman.antenna.gr^
+||clicka1.co.il^
+! https://github.com/AdguardTeam/AdguardFilters/issues/189226
+! https://github.com/AdguardTeam/AdguardFilters/issues/184829
+||target.hidabroot.org^
+! https://github.com/AdguardTeam/AdguardFilters/issues/116912
+||ban.bhol.co.il^
+||ext.bhol.co.il^
+||st1.bhol.co.il^
+! https://github.com/AdguardTeam/AdguardFilters/issues/19323
+||pijama.*.elasticbeanstalk.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/114260
+||head-clickfusion.com^
+||headerbidding.services^
+||3myad.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/97769
+||cdn.234doo.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/58569
+||a.b.napiszar.com^
+||banner.tp24.it^
+||ad.citynews.it^
+||planner.tiscali.it^
+!---------------------------------------------------------------------
+!------------------------------ Korean -------------------------------
+!---------------------------------------------------------------------
+!
+! NOTE: Korean
+!
+||adc.indextops.com^
+!
+!---------------------------------------------------------------------
+!--------------------------- Luxembourgish ---------------------------
+!---------------------------------------------------------------------
+!
+! NOTE: Luxembourgish
+!
+! spellchecker.lu ad
+||reklammen.spellchecker.lu^
+!
+||admixer.md^
+||bn.gogo.mn^
+! https://github.com/AdguardTeam/AdguardFilters/issues/68502
+||widget.tippebannere.no^
+||adc.interia.pl^
+! https://github.com/AdguardTeam/AdguardFilters/issues/215666
+! https://github.com/MajkiIT/polish-ads-filter/issues/23114
+! TODO: remove when it's fixed in Official Polish filters for AdBlock, uBlock Origin & AdGuard
+||pl.ua^$badfilter
+!+ PLATFORM(ext_chromium_mv3)
+||linksprf.com^$badfilter
+||c2c24.pl^
+! https://github.com/AdguardTeam/AdguardFilters/issues/128653
+||cdn.gallery^
+! https://github.com/AdguardTeam/AdguardFilters/issues/5103
+||llog.pl^
+!
+||bsxmuny.wp.pl^
+||fusion.sydsvenskan.se^
+! https://github.com/AdguardTeam/AdguardFilters/issues/200270
+||adsok.co^
+! https://github.com/AdguardTeam/AdguardFilters/issues/184497
+||9king888.cc^
+||imp.mgronline.com^
+||ad.vietbao.vn^
+||moneyoyo.com^
+||newoneinoldoneout.pro^
+||odds.vebo.xyz^
+! https://github.com/AdguardTeam/AdguardFilters/issues/162256
+||1991482557.rsc.cdn77.org^
+||static.adconnect.vn^
+||kernh41.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/38159
+||affiliate.k4.tinhte.vn^
+! https://github.com/AdguardTeam/AdguardFilters/issues/8077
+!+ NOT_PLATFORM(windows, mac, android)
+||delivery.senvangvn.com^
+!---------------------------------------------------------------------
+!------------------------------ Fixing other filters -----------------
+!---------------------------------------------------------------------
+! SECTION: Fixing other filters
+! AdGuard platforms related only
+!
+! NOTE: Fixing other filters end ⬆️
+! !SECTION: Fixing other filters
+!

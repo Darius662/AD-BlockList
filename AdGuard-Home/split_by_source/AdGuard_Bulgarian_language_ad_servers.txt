@@ -1,0 +1,18 @@
+! Source: AdGuard Bulgarian language ad servers
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Bulgarian/sections/filter.txt
+!
+!
+!
+! This section contains the list of rules that are supposed to work on Bulgarian websites.
+!
+! Good: any type of the rules will be good
+! Bad: @@||example.org^$stealth
+!
+! NOTE: Ad servers
+!
+||ads2native.com^
+||hdvmyo.com^
+||adsy.mail.bg^
+!

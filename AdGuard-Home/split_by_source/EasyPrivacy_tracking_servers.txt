@@ -1,0 +1,29 @@
+! Source: EasyPrivacy tracking servers
+! Extracted from AdGuard DNS Filter
+!
+! Source URL: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers.txt
+!
+!
+! Chinese google (https://github.com/easylist/easylist/issues/15643)
+||google-analytics-cn.com^
+||googleoptimize-cn.com^
+||googletagmanager-cn.com^
+! Bright Data https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1580
+! Oracle
+||addthis.com^
+||addthisedge.com^
+! revprotect
+||pphwrevr.com^
+! Marketo email tracking domains https://github.com/easylist/easylist/issues/6475
+! Fingerprinting
+||clickguardian.app^
+||clickyab.com^
+||fpjscdn.net^
+||guoshipartners.com^
+||klangoo.com^
+||p30rank.ir^
+||ppcprotect.com^
+||push4site.com^
+||ravelin.net^
+||simility.com^
+!

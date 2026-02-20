@@ -1,0 +1,256 @@
+{
+    "_comment": "DISABLED REPOSITORIES - These are commented out from repos.json",
+    "_note": "To re-enable, copy entries back to repos.json and remove underscore prefix from IDs",
+    "repositories": [
+        {
+            "id": "adguard-sdns-filter",
+            "name": "AdGuard SDNS Filter (Compiled)",
+            "enabled": false,
+            "source": "github_api",
+            "api_url": "https://api.github.com/repos/AdguardTeam/AdGuardSDNSFilter/contents/Filters",
+            "file_pattern": "\\.txt$",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard SDNS Filter compiled output files (exceptions, exclusions, rules)"
+        },
+        {
+            "id": "adguard-sdns-base",
+            "name": "AdGuard Base filter (SDNS)",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt",
+            "filename": "adguard_base_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Base filter ad servers"
+        },
+        {
+            "id": "adguard-sdns-base-firstparty",
+            "name": "AdGuard Base filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_base_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Base filter first-party ad servers"
+        },
+        {
+            "id": "adguard-sdns-base-foreign",
+            "name": "AdGuard Base filter — foreign servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/foreign.txt",
+            "filename": "adguard_base_foreign.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Base filter foreign servers"
+        },
+        {
+            "id": "adguard-sdns-mobile",
+            "name": "AdGuard Mobile Ads filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/MobileFilter/sections/adservers.txt",
+            "filename": "adguard_mobile_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Mobile Ads filter"
+        },
+        {
+            "id": "adguard-sdns-spanish",
+            "name": "AdGuard Spanish/Portuguese filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/SpanishFilter/sections/adservers.txt",
+            "filename": "adguard_spanish_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Spanish/Portuguese filter"
+        },
+        {
+            "id": "adguard-sdns-spanish-firstparty",
+            "name": "AdGuard Spanish/Portuguese filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/FrenchFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_spanish_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Spanish/Portuguese first-party"
+        },
+        {
+            "id": "adguard-sdns-cyrillic",
+            "name": "AdGuard common Cyrillic filters ad servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/common-sections/adservers.txt",
+            "filename": "adguard_cyrillic_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard common Cyrillic filters"
+        },
+        {
+            "id": "adguard-sdns-cyrillic-firstparty",
+            "name": "AdGuard common Cyrillic filters — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/common-sections/adservers_firstparty.txt",
+            "filename": "adguard_cyrillic_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Cyrillic first-party"
+        },
+        {
+            "id": "adguard-sdns-russian-firstparty",
+            "name": "AdGuard Russian filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/RussianFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_russian_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Russian first-party servers"
+        },
+        {
+            "id": "adguard-sdns-ukrainian-firstparty",
+            "name": "AdGuard Ukrainian filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/UkrainianFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_ukrainian_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Ukrainian first-party servers"
+        },
+        {
+            "id": "adguard-sdns-belarusian",
+            "name": "AdGuard Belarusian language ad servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Belarusian/sections/filter.txt",
+            "filename": "adguard_belarusian.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Belarusian language filter"
+        },
+        {
+            "id": "adguard-sdns-bulgarian",
+            "name": "AdGuard Bulgarian language ad servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Bulgarian/sections/filter.txt",
+            "filename": "adguard_bulgarian.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Bulgarian language filter"
+        },
+        {
+            "id": "adguard-sdns-kazakh",
+            "name": "AdGuard Kazakh language ad servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Kazakh/sections/filter.txt",
+            "filename": "adguard_kazakh.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Kazakh language filter"
+        },
+        {
+            "id": "adguard-sdns-turkish",
+            "name": "AdGuard Turkish filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/TurkishFilter/sections/adservers.txt",
+            "filename": "adguard_turkish_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Turkish filter"
+        },
+        {
+            "id": "adguard-sdns-turkish-firstparty",
+            "name": "AdGuard Turkish filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/TurkishFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_turkish_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Turkish first-party"
+        },
+        {
+            "id": "adguard-sdns-french",
+            "name": "AdGuard French filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/FrenchFilter/sections/adservers.txt",
+            "filename": "adguard_french_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard French filter"
+        },
+        {
+            "id": "adguard-sdns-french-firstparty",
+            "name": "AdGuard French filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/FrenchFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_french_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard French first-party"
+        },
+        {
+            "id": "adguard-sdns-japanese",
+            "name": "AdGuard Japanese filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/JapaneseFilter/sections/adservers.txt",
+            "filename": "adguard_japanese_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Japanese filter"
+        },
+        {
+            "id": "adguard-sdns-japanese-firstparty",
+            "name": "AdGuard Japanese filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/JapaneseFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_japanese_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Japanese first-party"
+        },
+        {
+            "id": "adguard-sdns-german",
+            "name": "AdGuard German filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/GermanFilter/sections/adservers.txt",
+            "filename": "adguard_german_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard German filter"
+        },
+        {
+            "id": "adguard-sdns-chinese",
+            "name": "AdGuard Chinese filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/ChineseFilter/sections/adservers.txt",
+            "filename": "adguard_chinese_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Chinese filter"
+        },
+        {
+            "id": "adguard-sdns-chinese-firstparty",
+            "name": "AdGuard Chinese filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/ChineseFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_chinese_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Chinese first-party"
+        },
+        {
+            "id": "adguard-sdns-dutch",
+            "name": "AdGuard Dutch filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/DutchFilter/sections/adservers.txt",
+            "filename": "adguard_dutch_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Dutch filter"
+        },
+        {
+            "id": "adguard-sdns-dutch-firstparty",
+            "name": "AdGuard Dutch filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/DutchFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_dutch_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Dutch first-party"
+        }
+    ]
+}

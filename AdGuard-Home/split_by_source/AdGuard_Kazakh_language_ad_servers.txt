@@ -1,7 +1,0 @@
-! Source: AdGuard Kazakh language ad servers
-! Extracted from AdGuard DNS Filter
-!
-! Source URL: https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Kazakh/sections/filter.txt
-!
-!
-!

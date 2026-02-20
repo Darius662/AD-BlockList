@@ -1,0 +1,490 @@
+{
+    "repositories": [
+        {
+            "id": "adguard-hostlists",
+            "name": "AdGuard Hostlists Registry",
+            "enabled": true,
+            "source": "github_api",
+            "api_url": "https://api.github.com/repos/AdguardTeam/HostlistsRegistry/contents/assets",
+            "file_pattern": "^filter_\\d+\\.txt$",
+            "destination_folder": "Adguard Official Lists",
+            "description": "Official AdGuard Hostlists Registry - filter files"
+        },
+        {
+            "id": "adguard-filters",
+            "name": "AdGuard Filters",
+            "enabled": true,
+            "source": "github_api",
+            "api_url": "https://api.github.com/repos/AdguardTeam/AdguardFilters/contents/BaseFilter/sections",
+            "file_pattern": "\\.txt$",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Base Filter sections"
+        },
+        {
+            "id": "adguard-sdns-filter",
+            "name": "AdGuard SDNS Filter (Compiled)",
+            "enabled": true,
+            "source": "github_api",
+            "api_url": "https://api.github.com/repos/AdguardTeam/AdGuardSDNSFilter/contents/Filters",
+            "file_pattern": "\\.txt$",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard SDNS Filter compiled output files (exceptions, exclusions, rules)"
+        },
+        {
+            "id": "adguard-sdns-base",
+            "name": "AdGuard Base filter (SDNS)",
+            "enabled": true,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt",
+            "filename": "adguard_base_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Base filter ad servers"
+        },
+        {
+            "id": "adguard-sdns-base-firstparty",
+            "name": "AdGuard Base filter — first-party servers",
+            "enabled": true,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_base_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Base filter first-party ad servers"
+        },
+        {
+            "id": "adguard-sdns-base-foreign",
+            "name": "AdGuard Base filter — foreign servers",
+            "enabled": true,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/foreign.txt",
+            "filename": "adguard_base_foreign.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Base filter foreign servers"
+        },
+        {
+            "id": "adguard-sdns-mobile",
+            "name": "AdGuard Mobile Ads filter",
+            "enabled": true,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/MobileFilter/sections/adservers.txt",
+            "filename": "adguard_mobile_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Mobile Ads filter"
+        },
+        {
+            "id": "adguard-sdns-spanish",
+            "name": "AdGuard Spanish/Portuguese filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/SpanishFilter/sections/adservers.txt",
+            "filename": "adguard_spanish_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Spanish/Portuguese filter"
+        },
+        {
+            "id": "adguard-sdns-spanish-firstparty",
+            "name": "AdGuard Spanish/Portuguese filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/FrenchFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_spanish_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Spanish/Portuguese first-party"
+        },
+        {
+            "id": "adguard-sdns-cyrillic",
+            "name": "AdGuard common Cyrillic filters ad servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/common-sections/adservers.txt",
+            "filename": "adguard_cyrillic_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard common Cyrillic filters"
+        },
+        {
+            "id": "adguard-sdns-cyrillic-firstparty",
+            "name": "AdGuard common Cyrillic filters — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/common-sections/adservers_firstparty.txt",
+            "filename": "adguard_cyrillic_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Cyrillic first-party"
+        },
+        {
+            "id": "adguard-sdns-russian-firstparty",
+            "name": "AdGuard Russian filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/RussianFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_russian_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Russian first-party servers"
+        },
+        {
+            "id": "adguard-sdns-ukrainian-firstparty",
+            "name": "AdGuard Ukrainian filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/UkrainianFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_ukrainian_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Ukrainian first-party servers"
+        },
+        {
+            "id": "adguard-sdns-belarusian",
+            "name": "AdGuard Belarusian language ad servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Belarusian/sections/filter.txt",
+            "filename": "adguard_belarusian.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Belarusian language filter"
+        },
+        {
+            "id": "adguard-sdns-bulgarian",
+            "name": "AdGuard Bulgarian language ad servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Bulgarian/sections/filter.txt",
+            "filename": "adguard_bulgarian.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Bulgarian language filter"
+        },
+        {
+            "id": "adguard-sdns-kazakh",
+            "name": "AdGuard Kazakh language ad servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Kazakh/sections/filter.txt",
+            "filename": "adguard_kazakh.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Kazakh language filter"
+        },
+        {
+            "id": "adguard-sdns-turkish",
+            "name": "AdGuard Turkish filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/TurkishFilter/sections/adservers.txt",
+            "filename": "adguard_turkish_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Turkish filter"
+        },
+        {
+            "id": "adguard-sdns-turkish-firstparty",
+            "name": "AdGuard Turkish filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/TurkishFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_turkish_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Turkish first-party"
+        },
+        {
+            "id": "adguard-sdns-french",
+            "name": "AdGuard French filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/FrenchFilter/sections/adservers.txt",
+            "filename": "adguard_french_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard French filter"
+        },
+        {
+            "id": "adguard-sdns-french-firstparty",
+            "name": "AdGuard French filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/FrenchFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_french_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard French first-party"
+        },
+        {
+            "id": "adguard-sdns-japanese",
+            "name": "AdGuard Japanese filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/JapaneseFilter/sections/adservers.txt",
+            "filename": "adguard_japanese_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Japanese filter"
+        },
+        {
+            "id": "adguard-sdns-japanese-firstparty",
+            "name": "AdGuard Japanese filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/JapaneseFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_japanese_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Japanese first-party"
+        },
+        {
+            "id": "adguard-sdns-german",
+            "name": "AdGuard German filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/GermanFilter/sections/adservers.txt",
+            "filename": "adguard_german_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard German filter"
+        },
+        {
+            "id": "adguard-sdns-chinese",
+            "name": "AdGuard Chinese filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/ChineseFilter/sections/adservers.txt",
+            "filename": "adguard_chinese_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Chinese filter"
+        },
+        {
+            "id": "adguard-sdns-chinese-firstparty",
+            "name": "AdGuard Chinese filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/ChineseFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_chinese_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Chinese first-party"
+        },
+        {
+            "id": "adguard-sdns-dutch",
+            "name": "AdGuard Dutch filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/DutchFilter/sections/adservers.txt",
+            "filename": "adguard_dutch_adservers.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Dutch filter"
+        },
+        {
+            "id": "adguard-sdns-dutch-firstparty",
+            "name": "AdGuard Dutch filter — first-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://adguardteam.github.io/AdguardFilters/DutchFilter/sections/adservers_firstparty.txt",
+            "filename": "adguard_dutch_firstparty.txt",
+            "destination_folder": "AdguardDNS Lists",
+            "description": "AdGuard Dutch first-party"
+        },
+        {
+            "id": "easylist",
+            "name": "EasyList",
+            "enabled": true,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
+            "filename": "easylist_adservers.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList ad servers"
+        },
+        {
+            "id": "easylist-thirdparty",
+            "name": "EasyList — third-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty.txt",
+            "filename": "easylist_thirdparty.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList third-party servers"
+        },
+        {
+            "id": "easylist-specific-block",
+            "name": "EasyList - specific block",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/easylist/easylist_specific_block.txt",
+            "filename": "easylist_specific_block.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList specific block"
+        },
+        {
+            "id": "easylist-adult-block",
+            "name": "EasyList - adult block",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/easylist_adult/adult_specific_block.txt",
+            "filename": "easylist_adult_specific_block.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList adult specific block"
+        },
+        {
+            "id": "easylist-adult-adservers",
+            "name": "EasyList — adult third-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylist/master/easylist_adult/adult_adservers.txt",
+            "filename": "easylist_adult_adservers.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList adult ad servers"
+        },
+        {
+            "id": "easylist-adult-popup",
+            "name": "EasyList — adult popup servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylist/master/easylist_adult/adult_adservers_popup.txt",
+            "filename": "easylist_adult_popup.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList adult popup servers"
+        },
+        {
+            "id": "easylist-germany",
+            "name": "EasyList Germany",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylistgermany/master/easylistgermany/easylistgermany_adservers.txt",
+            "filename": "easylist_germany_adservers.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList Germany"
+        },
+        {
+            "id": "easylist-hebrew",
+            "name": "EasyList Hebrew",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/adguard_hosts.txt",
+            "filename": "easylist_hebrew.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList Hebrew"
+        },
+        {
+            "id": "easylist-italy",
+            "name": "EasyList Italy",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylistitaly/master/easylistitaly/easylistitaly_adservers.txt",
+            "filename": "easylist_italy_adservers.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList Italy"
+        },
+        {
+            "id": "easylist-china",
+            "name": "EasyList China",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt",
+            "filename": "easylist_china.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList China"
+        },
+        {
+            "id": "easylist-dutch",
+            "name": "EasyList Dutch",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/easylist/easylistdutch/master/easylistdutch.txt",
+            "filename": "easylist_dutch.txt",
+            "destination_folder": "Custom Lists",
+            "description": "EasyList Dutch"
+        },
+        {
+            "id": "abpindo",
+            "name": "ABPindo",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+            "filename": "abpindo.txt",
+            "destination_folder": "Custom Lists",
+            "description": "ABPindo Indonesian filter"
+        },
+        {
+            "id": "abpindo-thirdparty",
+            "name": "ABPindo — third-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_adservers.txt",
+            "filename": "abpindo_adservers.txt",
+            "destination_folder": "Custom Lists",
+            "description": "ABPindo third-party servers"
+        },
+        {
+            "id": "adblockid",
+            "name": "AdblockID",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/realodix/AdBlockID/master/output/AdBlockID.txt",
+            "filename": "adblockid.txt",
+            "destination_folder": "Custom Lists",
+            "description": "AdblockID Indonesian filter"
+        },
+        {
+            "id": "hostsvn",
+            "name": "hostsVN",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN.txt",
+            "filename": "hostsvn.txt",
+            "destination_folder": "Custom Lists",
+            "description": "hostsVN Vietnamese filter"
+        },
+        {
+            "id": "hostsvn-threat",
+            "name": "hostsVN Threat",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN-threat.txt",
+            "filename": "hostsvn_threat.txt",
+            "destination_folder": "Custom Lists",
+            "description": "hostsVN Vietnamese threat filter"
+        },
+        {
+            "id": "list-kr",
+            "name": "List-KR filter",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/List-KR/List-KR/master/filter.txt",
+            "filename": "list_kr.txt",
+            "destination_folder": "Custom Lists",
+            "description": "List-KR Korean filter"
+        },
+        {
+            "id": "list-kr-thirdparty",
+            "name": "List-KR filter - third-party servers",
+            "enabled": false,
+            "source": "direct_url",
+            "url": "https://raw.githubusercontent.com/List-KR/List-KR/master/filter_3p.txt",
+            "filename": "list_kr_3p.txt",
+            "destination_folder": "Custom Lists",
+            "description": "List-KR Korean third-party filter"
+        },
+        {
+            "id": "road-block",
+            "name": "ROad-Block (Romanian)",
+            "enabled": true,
+            "source": "github_raw",
+            "url": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters.txt",
+            "filename": "road-block-filters.txt",
+            "destination_folder": "Custom Lists",
+            "description": "Romanian ad blocker list"
+        },
+        {
+            "id": "oisd-big",
+            "name": "OISD Blocklist Big",
+            "enabled": true,
+            "source": "direct_url",
+            "url": "https://big.oisd.nl/",
+            "filename": "oisd-big.txt",
+            "destination_folder": "Custom Lists",
+            "description": "OISD full blocklist"
+        },
+        {
+            "id": "hagezi-multi",
+            "name": "hBlock Multi",
+            "enabled": true,
+            "source": "github_raw",
+            "url": "https://raw.githubusercontent.com/hectorm/hblock/master/sources/hosts.txt",
+            "filename": "hblock-hosts.txt",
+            "destination_folder": "Custom Lists",
+            "description": "hBlock consolidated hosts file"
+        }
+    ],
+    "settings": {
+        "default_destination": "C:\\Users\\dariu\\Documents\\GitHub\\AD-BlockList",
+        "auto_enable_new": true,
+        "verify_downloads": false,
+        "max_concurrent_downloads": 5
+    }
+}
